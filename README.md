@@ -1,6 +1,5 @@
 # GIFCycle
 
-/*
 Links:
 Image to C Converter
 https://github.com/bitbank2/image_to_c
