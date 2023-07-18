@@ -16,3 +16,8 @@ Steps for Mac:
 For Windows:
 1. Follow these steps (Timestamp 3:18 - 4:28)
 2. Include the file into your project folder
+
+
+Libraries used
+1. https://github.com/Bodmer/TFT_eSPI (TFT_eSPI)
+2. https://github.com/bitbank2/AnimatedGIF (Animated GIF)
