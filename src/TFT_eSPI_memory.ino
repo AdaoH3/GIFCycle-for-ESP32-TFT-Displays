@@ -5,7 +5,7 @@
 #include <TFT_eSPI.h>
 #include <AnimatedGIF.h>
 
-#define pin1 1
+#define button 1
 //Button Pin
 #define TFT_BACKLIGHT_PIN 45
 //Backlight Pin (Optional) Disable if your tft monitor does not have a backlight
@@ -77,7 +77,7 @@ void setup() {
 
   pinMode(TFT_BACKLIGHT_PIN, OUTPUT);
   digitalWrite(TFT_BACKLIGHT_PIN, HIGH);
-  pinMode(pin1, INPUT);
+  pinMode(button, INPUT);
   // gives all the pins value
  
 #ifdef USE_DMA
@@ -122,7 +122,7 @@ void loop()
 #endif
 
 int checkCounter() {
-  if (digitalRead(pin1) == HIGH && !buttonPressed) {
+  if (digitalRead(button) == HIGH && !buttonPressed) {
     buttonPressed = true;
     counter++;
     /*
@@ -141,7 +141,7 @@ int checkCounter() {
     */
   }
 
-  if (digitalRead(pin1) == LOW) {
+  if (digitalRead(button) == LOW) {
     buttonPressed = false;
     // when the button goes low the buttonPressed is false so the first if statement can run
   }
