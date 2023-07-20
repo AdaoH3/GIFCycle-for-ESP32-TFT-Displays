@@ -8,7 +8,7 @@
 #define pin1 1
 //Button Pin
 #define TFT_BACKLIGHT_PIN 45
-//Backlight Pin (Optional)
+//Backlight Pin (Optional) Disable if your tft monitor does not have a backlight
 
 // TFT_eSPI_memory
 //
