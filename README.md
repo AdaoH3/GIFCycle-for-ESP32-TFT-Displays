@@ -1,6 +1,7 @@
 # GIFCycle
 
 Links:
+
 Blog (Explains how to set up everything)
 https://adaoh3.blogspot.com/2023/07/cycle-gifs-with-arduino-and-tft-display.html
 
